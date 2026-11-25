@@ -2,9 +2,13 @@
 
 ## Tecnologías emergentes que abren camino
 
+<p align="justify">
 Impulsando la participación de adolescentes mujeres de los colegios de la ciudad de Loja en trayectorias formativas TIC.
+</p>
 
+<p align="justify">
 Es un proyecto de vinculación con la sociedad de la carrera de Computación de la Universidad Nacional de Loja, que propone actividades para que las estudiantes exploren las tecnologias emergentes (inteligencia artificial, realidad aumentada y creación de prototipos guiados por IA) en escenarios prácticos.
+</p>
 
 ## Instalar Quarto y TinyTeX
 
