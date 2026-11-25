@@ -1,37 +1,114 @@
 
 ---
-title: "Inteligencia Artificial"
-subtitle: "Visión por computador"
+title: "Clasificación de imágenes"
+subtitle: "Inteligencia Artificial"
 title-block-banner: "#004C7B"
 title-block-banner-color: "#FFFFFF"
 toc: false
 number-sections: false
 format:
   html:
+    page-layout: full
     format-links: false
+    header-includes: |
+      <style>
+        #title-block-header,
+        #title-block-header .quarto-title-banner {
+          margin-block-end: 0;
+        }
+
+        #quarto-content > #quarto-document-content {
+          margin-block-start: 0;
+          padding-block-start: 0;
+        }
+
+        .image-classification-guide {
+          --guide-blue: #004c7b;
+          line-height: 1.6;
+        }
+
+        .image-classification-guide .guide-back p {
+          margin-block: 0;
+        }
+
+        .image-classification-guide .callout.callout-note {
+          margin-top: 0;
+          border-left-color: var(--guide-blue);
+        }
+
+        .image-classification-guide .callout.callout-note .callout-header {
+          background-color: #f1f7fb;
+        }
+
+        .image-classification-guide .callout-title-container {
+          color: var(--guide-blue);
+          font-size: 1.125rem;
+        }
+
+        .image-classification-guide .callout-body {
+          font-size: 1rem;
+        }
+
+        .image-classification-guide .level2 > h2 {
+          color: var(--guide-blue);
+          font-size: 1.5rem;
+          border-color: #d7e5ee;
+        }
+
+        .image-classification-guide .level3 > h3 {
+          font-size: 1.125rem;
+          font-weight: 600;
+        }
+      </style>
   pdf:
     documentclass: scrartcl
+    shift-heading-level-by: -1
     colorlinks: true
     papersize: a4
     geometry:
       - margin=2.5cm
+    header-includes: |
+      \usepackage{xcolor}
+      \definecolor{guideblue}{HTML}{004C7B}
+      \addtokomafont{title}{\color{guideblue}}
+      \addtokomafont{section}{\color{guideblue}}
+      \RedeclareSectionCommand[beforeskip=1em,afterskip=.35em,afterindent=false]{section}
+      \RedeclareSectionCommand[beforeskip=.75em,afterskip=.25em,afterindent=false]{subsection}
+      \makeatletter
+      \renewcommand*{\@maketitle}{%
+        \begingroup
+        \centering
+        {\usekomafont{title}\huge\@title\par}%
+        {\usekomafont{subtitle}\@subtitle\par}%
+        \ifx\@author\@empty\else{\usekomafont{author}\@author\par}\fi
+        \ifx\@date\@empty\else{\usekomafont{date}\@date\par}\fi
+        \endgroup
+        \medskip
+      }
+      \makeatother
+      \AtBeginDocument{%
+        \colorlet{quarto-callout-note-color}{guideblue}%
+        \colorlet{quarto-callout-note-color-frame}{guideblue}%
+      }
 ---
 
-::: {.content-visible when-format="html" style="margin-top: -1.5rem;"}
+::: {.container .pb-4 .image-classification-guide}
+
+:::: {.content-visible when-format="html"}
+
+::: {.guide-back .py-4}
 
 [← Volver a recursos didácticos](../../index.qmd)
 
 :::
 
-::: {.callout-note appearance="simple" icon=false}
+::::
+
+::: {.callout-note icon=false}
 
 ## Objetivo
 
-::: {style="font-size: 1.2rem; line-height: 1.6; text-align: justify;"}
-
-Desarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de **clasificación de imágenes**.
-
-:::
+Desarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de imágenes.
 
 :::
 
@@ -67,8 +144,10 @@ Identifica un problema de tu entorno que puedas abordar mediante clasificación 
 
 ### 4.2. Desarrollo de la solución
 
-Adapta el modelo y la aplicación del taller a tu propuesta.
+Buscar el dataset, definir los datos, crear el modelo, entrenarlo, probarlo e integrarlo en la Interfaz de usuario.
 
 ### 4.3. Visibilización
 
 Presentación de los resultados.
+
+:::

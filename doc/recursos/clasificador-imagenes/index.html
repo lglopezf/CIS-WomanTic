@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Inteligencia Artificial – WomanTIC</title>
+<title>Clasificación de imágenes – WomanTIC</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -74,24 +74,73 @@ ul.task-list li input[type="checkbox"] {
 background: #004C7B;
       }
 </style>
+<style>
+  #title-block-header,
+  #title-block-header .quarto-title-banner {
+    margin-block-end: 0;
+  }
+
+  #quarto-content > #quarto-document-content {
+    margin-block-start: 0;
+    padding-block-start: 0;
+  }
+
+  .image-classification-guide {
+    --guide-blue: #004c7b;
+    line-height: 1.6;
+  }
+
+  .image-classification-guide .guide-back p {
+    margin-block: 0;
+  }
+
+  .image-classification-guide .callout.callout-note {
+    margin-top: 0;
+    border-left-color: var(--guide-blue);
+  }
+
+  .image-classification-guide .callout.callout-note .callout-header {
+    background-color: #f1f7fb;
+  }
+
+  .image-classification-guide .callout-title-container {
+    color: var(--guide-blue);
+    font-size: 1.125rem;
+  }
+
+  .image-classification-guide .callout-body {
+    font-size: 1rem;
+  }
+
+  .image-classification-guide .level2 > h2 {
+    color: var(--guide-blue);
+    font-size: 1.5rem;
+    border-color: #d7e5ee;
+  }
+
+  .image-classification-guide .level3 > h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+</style>
 
 
 </head>
 
-<body class="fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Saltar al contenido principal</a>
+<body class="quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Saltar al contenido principal</a>
 
 <div id="quarto-search-results"></div>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Inteligencia Artificial</h1>
-            <p class="subtitle lead">Visión por computador</p>
+    <div class="quarto-title column-page">
+      <h1 class="title">Clasificación de imágenes</h1>
+            <p class="subtitle lead">Inteligencia Artificial</p>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -99,19 +148,22 @@ background: #004C7B;
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content" tabindex="-1">
 
 
 
 
 
+<div class="container pb-4 image-classification-guide">
+<div class="guide-back py-4">
 <p><a href="../../index.html">← Volver a recursos didácticos</a></p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -121,9 +173,7 @@ background: #004C7B;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<div style="font-size: 1.2rem; line-height: 1.6; text-align: justify;">
-<p>Desarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de <strong>clasificación de imágenes</strong>.</p>
-</div>
+<p>Desarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de imágenes.</p>
 </div>
 </div>
 <section id="conociendo-la-tecnología" class="level2">
@@ -163,15 +213,16 @@ background: #004C7B;
 </section>
 <section id="desarrollo-de-la-solución" class="level3">
 <h3 class="anchored" data-anchor-id="desarrollo-de-la-solución">4.2. Desarrollo de la solución</h3>
-<p>Adapta el modelo y la aplicación del taller a tu propuesta.</p>
+<p>Buscar el dataset, definir los datos, crear el modelo, entrenarlo, probarlo e integrarlo en la Interfaz de usuario.</p>
 </section>
 <section id="visibilización" class="level3">
 <h3 class="anchored" data-anchor-id="visibilización">4.3. Visibilización</h3>
 <p>Presentación de los resultados.</p>
-
-
 </section>
 </section>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
