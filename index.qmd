@@ -1,0 +1,191 @@
+
+---
+title: "Carrera de Computación"
+subtitle: "Universidad Nacional de Loja"
+title-block-banner: "#004C7B"
+title-block-banner-color: "#FFFFFF"
+page-layout: full
+navbar: false
+sidebar: false
+toc: false
+---
+
+::: {.container .py-4}
+
+::: {.bg-light .rounded-3 .p-4 .mb-4 .text-center}
+
+::: {.text-primary .fw-semibold .small .mb-2}
+PROYECTO DE VINCULACIÓN CON LA SOCIEDAD
+:::
+
+## Tecnologías emergentes que abren camino {.border-0 .mt-2 .mb-1}
+
+::: {.lead .mt-0 .mb-0}
+Impulsando la participación de adolescentes mujeres de los colegios de la ciudad de Loja en trayectorias formativas TIC
+:::
+
+:::
+
+## Equipo del proyecto
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-5}
+
+::: {.card .h-100 .bg-light .border-0}
+::: {.card-body .p-4}
+
+**RESPONSABLE**
+
+Lissette Geoconda López Faicán
+
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-7}
+
+::: {.card .h-100 .bg-light .border-0}
+::: {.card-body .p-4}
+
+**DOCENTES INTEGRANTES**
+
+Valeria del Rosario Herrera Salazar
+
+Genoveva Jackelinne Suing Albito
+
+Ángel Klever Orellana Malla
+
+:::
+:::
+:::
+
+:::
+
+## Recursos didácticos
+
+Explora las guías y aprende a desarrollar soluciones con tecnologías emergentes.
+
+
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+
+::: {.card .h-100 .shadow-sm}
+
+::: {.card-body .p-4 .d-flex .flex-column}
+
+::: {.d-flex .align-items-center .gap-3 .mb-3}
+
+::: {.rounded-3 .p-2}
+
+<i class="bi bi-image fs-4 text-primary"></i>
+
+:::
+
+::: {.text-primary .fw-semibold .small}
+INTELIGENCIA ARTIFICIAL
+:::
+
+:::
+
+### Clasificación de imágenes {.mt-0 .mb-3}
+
+::: {style="text-align: justify;"}
+
+Desarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de imágenes.
+
+:::
+
+::: {.mt-auto .pt-3}
+
+[Explorar guía →](recursos/clasificador-imagenes/index.qmd){.stretched-link .fw-semibold}
+
+:::
+
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+::: {.card .h-100 .shadow-sm}
+
+::: {.card-body .p-4 .d-flex .flex-column}
+
+::: {.d-flex .align-items-center .gap-3 .mb-3}
+
+::: {.rounded-3 .p-2}
+
+<i class="bi bi-soundwave fs-4 text-primary"></i>
+
+:::
+
+::: {.text-primary .fw-semibold .small}
+INTELIGENCIA ARTIFICIAL
+:::
+
+:::
+
+### Clasificación de sonidos {.mt-0 .mb-3}
+
+::: {style="text-align: justify;"}
+
+Desarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de sonidos.
+
+:::
+
+::: {.mt-auto .pt-3 .text-muted}
+
+[Explorar guía →](recursos/clasificador-sonidos/index.qmd){.stretched-link .fw-semibold}
+
+:::
+
+:::
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+::: {.card .h-100 .shadow-sm}
+
+::: {.card-body .p-4 .d-flex .flex-column}
+
+::: {.d-flex .align-items-center .gap-3 .mb-3}
+
+::: {.rounded-3 .p-2}
+
+<i class="bi bi-controller fs-4 text-primary"></i>
+
+:::
+
+::: {.text-primary .fw-semibold .small}
+DESARROLLO DE SOFTWARE ASISTIDO POR IA
+:::
+
+:::
+
+### Prototipo de Juego Serio {.mt-0 .mb-3}
+
+::: {style="text-align: justify;"}
+
+Desarrollar soluciones prácticas mediante el prototipado de juegos serios con apoyo de modelos de lenguaje de gran escala (LLM).
+
+:::
+
+::: {.mt-auto .pt-3 .text-muted}
+
+[Explorar guía →](recursos/prototipadoIA-juegoserio/index.qmd){.stretched-link .fw-semibold}
+
+
+:::
+
+:::
+:::
+:::
+
+:::
+
+:::
+

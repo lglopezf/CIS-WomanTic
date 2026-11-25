@@ -1,0 +1,20 @@
+
+project:
+  type: website
+  output-dir: doc
+
+website:
+  title: "WomanTIC"
+  search: false
+  page-navigation: false
+  back-to-top-navigation: false
+  page-footer:
+    center: "Universidad Nacional de Loja · Carrera de Computación · Loja, Ecuador · 2026 al 2028"
+
+format:
+  html:
+    theme: cosmo
+    toc: false
+    number-sections: false
+
+lang: es

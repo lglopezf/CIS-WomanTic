@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Carrera de Computación",
+    "section": "",
+    "text": "PROYECTO DE VINCULACIÓN CON LA SOCIEDAD\n\n\n\n\nImpulsando la participación de adolescentes mujeres de los colegios de la ciudad de Loja en trayectorias formativas TIC\n\n\n\n\n\n\n\n\n\nRESPONSABLE\nLissette Geoconda López Faicán\n\n\n\n\n\n\nDOCENTES INTEGRANTES\nValeria del Rosario Herrera Salazar\nGenoveva Jackelinne Suing Albito\nÁngel Klever Orellana Malla\n\n\n\n\n\n\n\nExplora las guías y aprende a desarrollar soluciones con tecnologías emergentes.\n\n\n\n\n\n\n\n\n\nINTELIGENCIA ARTIFICIAL\n\n\n\n\n\nDesarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de imágenes.\n\n\nExplorar guía →\n\n\n\n\n\n\n\n\n\n\n\n\n\nINTELIGENCIA ARTIFICIAL\n\n\n\n\n\nDesarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de sonidos.\n\n\nExplorar guía →\n\n\n\n\n\n\n\n\n\n\n\n\n\nDESARROLLO DE SOFTWARE ASISTIDO POR IA\n\n\n\n\n\nDesarrollar soluciones prácticas mediante el prototipado de juegos serios con apoyo de modelos de lenguaje de gran escala (LLM).\n\n\nExplorar guía →"
+  },
+  {
+    "objectID": "index.html#tecnologías-emergentes-que-abren-camino",
+    "href": "index.html#tecnologías-emergentes-que-abren-camino",
+    "title": "Carrera de Computación",
+    "section": "",
+    "text": "Impulsando la participación de adolescentes mujeres de los colegios de la ciudad de Loja en trayectorias formativas TIC"
+  },
+  {
+    "objectID": "index.html#equipo-del-proyecto",
+    "href": "index.html#equipo-del-proyecto",
+    "title": "Carrera de Computación",
+    "section": "",
+    "text": "RESPONSABLE\nLissette Geoconda López Faicán\n\n\n\n\n\n\nDOCENTES INTEGRANTES\nValeria del Rosario Herrera Salazar\nGenoveva Jackelinne Suing Albito\nÁngel Klever Orellana Malla"
+  },
+  {
+    "objectID": "index.html#recursos-didácticos",
+    "href": "index.html#recursos-didácticos",
+    "title": "Carrera de Computación",
+    "section": "",
+    "text": "Explora las guías y aprende a desarrollar soluciones con tecnologías emergentes.\n\n\n\n\n\n\n\n\n\nINTELIGENCIA ARTIFICIAL\n\n\n\n\n\nDesarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de imágenes.\n\n\nExplorar guía →\n\n\n\n\n\n\n\n\n\n\n\n\n\nINTELIGENCIA ARTIFICIAL\n\n\n\n\n\nDesarrollar soluciones prácticas mediante el entrenamiento, prueba e integración de modelos de clasificación de sonidos.\n\n\nExplorar guía →\n\n\n\n\n\n\n\n\n\n\n\n\n\nDESARROLLO DE SOFTWARE ASISTIDO POR IA\n\n\n\n\n\nDesarrollar soluciones prácticas mediante el prototipado de juegos serios con apoyo de modelos de lenguaje de gran escala (LLM).\n\n\nExplorar guía →"
+  },
+  {
+    "objectID": "recursos/clasificador-imagenes/index.html",
+    "href": "recursos/clasificador-imagenes/index.html",
+    "title": "Inteligencia Artificial",
+    "section": "",
+    "text": "← Volver a recursos didácticos"
+  },
+  {
+    "objectID": "recursos/clasificador-imagenes/index.html#conociendo-la-tecnología",
+    "href": "recursos/clasificador-imagenes/index.html#conociendo-la-tecnología",
+    "title": "Inteligencia Artificial",
+    "section": "1. Conociendo la tecnología",
+    "text": "1. Conociendo la tecnología\nBreve introducción a la visión por computador y a los modelos de clasificación de imágenes."
+  },
+  {
+    "objectID": "recursos/clasificador-imagenes/index.html#herramientas-utilizadas",
+    "href": "recursos/clasificador-imagenes/index.html#herramientas-utilizadas",
+    "title": "Inteligencia Artificial",
+    "section": "2. Herramientas utilizadas",
+    "text": "2. Herramientas utilizadas\n\nTeachable Machine: entrenamiento y prueba de modelos de clasificación.\nMIT App Inventor: desarrollo de aplicaciones móviles."
+  },
+  {
+    "objectID": "recursos/clasificador-imagenes/index.html#taller",
+    "href": "recursos/clasificador-imagenes/index.html#taller",
+    "title": "Inteligencia Artificial",
+    "section": "3. Taller",
+    "text": "3. Taller\n\n3.1. Clasificador inteligente de residuos\nDesarrollar un clasificador de residuos mediante inteligencia artificial e integrarlo en una aplicación móvil.\n\n\n3.2. Prerrequisitos\n\nComputadora con conexión a Internet.\nNavegador web.\n\n\n\n3.3. Desarrollo\nAquí se incorporarán las instrucciones paso a paso."
+  },
+  {
+    "objectID": "recursos/clasificador-imagenes/index.html#proyecto-tecnológico",
+    "href": "recursos/clasificador-imagenes/index.html#proyecto-tecnológico",
+    "title": "Inteligencia Artificial",
+    "section": "4. Proyecto tecnológico",
+    "text": "4. Proyecto tecnológico\n\n4.1. Reto tecnológico\nIdentifica un problema de tu entorno que puedas abordar mediante clasificación de imágenes.\n\n\n4.2. Desarrollo de la solución\nAdapta el modelo y la aplicación del taller a tu propuesta.\n\n\n4.3. Visibilización\nPresentación de los resultados."
+  }
+]
