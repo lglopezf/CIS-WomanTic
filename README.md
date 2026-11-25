@@ -38,7 +38,17 @@ En Visual Studio Code, selecciona **Archivo > Abrir carpeta** y abre la carpeta 
 
 ## Generar la vista previa
 
-En Visual Studio Code, selecciona **Terminal > Nueva terminal**. Desde la raíz del proyecto, donde está `_quarto.yml`, ejecuta este comando.
+En Visual Studio Code, selecciona **Terminal > Nueva terminal**. Ejecuta los comandos desde la raíz del proyecto, donde está `_quarto.yml`.
+
+Para abrir la vista previa del sitio en HTML, ejecuta:
+
+```bash
+quarto preview
+```
+
+Para regenerar solo los archivos HTML antes de abrir la vista previa, ejecuta `quarto preview --render html`.
+
+Para generar todos los formatos configurados, incluidos los PDF de las guías, ejecuta:
 
 ```bash
 quarto preview --render all
